@@ -37,3 +37,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
 #define AUTO_MOUSE_DEFAULT_LAYER 1
+
+/* USB認識の安定化 */
+#define WAIT_FOR_USB
+#define NO_USB_STARTUP_CHECK
+
+/* 左右どちらの手にUSBを接続してもマスターとして認識させる */
+#define EE_HANDS
